@@ -1,0 +1,43 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.contain{
+  display: flex;
+  justify-content: center;
+}
+
+.contain div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: blanchedalmond;
+}
+
+
+img{
+  display: block;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  z-index: -1;
+  position: absolute;
+}
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
